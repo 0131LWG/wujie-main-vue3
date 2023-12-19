@@ -1,0 +1,24 @@
+{
+  "name": "dvs-main",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "wujie": "^1.0.21",
+    "wujie-vue3": "^1.0.21"
+  },
+  "devDependencies": {},
+  "vuePlugins": {
+    "resolveFrom": "../../"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
