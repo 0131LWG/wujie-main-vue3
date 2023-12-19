@@ -1,0 +1,14 @@
+.npmrc
+**/src/uni_modules/
+**/src/wxcomponents/
+**/*.md
+
+# IDE 与编辑器忽略
+**/.idea/
+**/.vscode/
+**/.hbuilderx/
+
+# 自定义忽略
+**/auto-import.d.ts
+regExp.ts
+**/ucharts
